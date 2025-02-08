@@ -15,6 +15,7 @@ Onderzoek toont aan dat bezoekers binnen 50 milliseconden een eerste indruk vorm
 - Snel laden (onder de 1-2 seconden)
 - Visueel aantrekkelijk zijn
 - Een duidelijke call-to-action bevatten
+- De juiste hoeveelheid tekst bevatten ([lees meer over optimale tekstlengte](/blog/optimale-tekstlengte))
 
 ## 5 Tips voor Optimale Above the Fold Content
 
