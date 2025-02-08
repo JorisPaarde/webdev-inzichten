@@ -74,6 +74,21 @@ The `src/content/` directory contains "collections" of related Markdown and MDX 
 
 Any static assets, like images, can be placed in the `public/` directory.
 
+## 🛠️ Repository Setup
+
+This template includes a setup script to easily configure the repository name across all necessary files. To use it:
+
+```sh
+npm run setup your-new-repo-name
+```
+
+This will automatically update:
+- The repository name in `src/consts.ts`
+- The package name in `package.json`
+- All related configuration in the project
+
+This makes it easy to create new sites from this template while maintaining consistent naming across all files.
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
