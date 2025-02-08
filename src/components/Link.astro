@@ -1,0 +1,13 @@
+---
+interface Props {
+  href: string;
+  [key: string]: any; // For any other anchor attributes
+}
+
+import { withBase } from '../utils/path';
+const { href, ...props } = Astro.props;
+---
+
+<a href={withBase(href)} {...props}>
+  <slot />
+</a> 

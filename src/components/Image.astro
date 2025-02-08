@@ -1,0 +1,12 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  [key: string]: any; // For any other image attributes
+}
+
+import { withBase } from '../utils/path';
+const { src, alt, ...props } = Astro.props;
+---
+
+<img src={withBase(src)} alt={alt} {...props} /> 
