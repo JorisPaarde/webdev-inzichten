@@ -8,10 +8,6 @@ npm create astro@latest -- --template blog
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
-
 Features:
 
 - ✅ Minimal styling (make it your own!)
@@ -20,6 +16,38 @@ Features:
 - ✅ Sitemap support
 - ✅ RSS Feed support
 - ✅ Markdown & MDX support
+- ✅ Automatic blog post image generation using DALL-E 3
+
+## 🎨 Blog Image Generation
+
+This project includes an automatic blog post image generator that uses DALL-E 3 to create beautiful, relevant header images for your blog posts. To use this feature:
+
+1. Copy the `.env.example` file to `.env`:
+   ```sh
+   cp .env.example .env
+   ```
+
+2. Get an API key from [OpenAI](https://platform.openai.com/api-keys) and add it to your `.env` file:
+   ```
+   OPENAI_API_KEY=your-api-key-here
+   ```
+
+3. Run the image generator:
+   ```sh
+   npm run generate-blog-images
+   ```
+
+The generator will:
+- Skip posts that already have custom images
+- Generate new images for posts with placeholder images or no images
+- Save the images to your public directory
+- Automatically update the post's frontmatter
+
+Generated images are:
+- 1792x1024 pixels (optimal for blog headers)
+- Professional and minimalist in style
+- Relevant to each post's title
+- Saved with SEO-friendly filenames
 
 ## 🚀 Project Structure
 
@@ -28,10 +56,10 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
 ├── astro.config.mjs
 ├── README.md
 ├── package.json

@@ -1,8 +1,10 @@
 ---
 title: 'Optimale Tekstlengte voor Websites: Een Gids per Doelgroep'
-description: 'Hoe lang moet je webtekst zijn voor maximale impact? Ontdek de ideale tekstlengte voor verschillende doelgroepen en pagina types.'
-pubDate: 'Mar 21 2024'
-heroImage: '/blog-placeholder-4.jpg'
+description: >-
+  Hoe lang moet je webtekst zijn voor maximale impact? Ontdek de ideale
+  tekstlengte voor verschillende doelgroepen en pagina types.
+pubDate: Mar 21 2024
+heroImage: /optimale-tekstlengte-voor-websites-een-gids-per-doelgroep-header.jpg
 ---
 
 De ideale lengte van webteksten is een veelbesproken onderwerp. Te kort, en je mist mogelijk belangrijke informatie. Te lang, en je verliest de aandacht van je lezer. Laten we per doelgroep en situatie bekijken wat werkt.

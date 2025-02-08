@@ -1,8 +1,10 @@
 ---
 title: 'Above the Fold Optimalisatie: De Eerste Indruk Telt'
-description: 'Hoe je de eerste schermvullende content van je website optimaliseert voor betere gebruikerservaring en conversies'
-pubDate: 'Mar 20 2024'
-heroImage: '/blog-placeholder-3.jpg'
+description: >-
+  Hoe je de eerste schermvullende content van je website optimaliseert voor
+  betere gebruikerservaring en conversies
+pubDate: Mar 20 2024
+heroImage: /above-the-fold-optimalisatie-de-eerste-indruk-telt-header.jpg
 ---
 
 De "above the fold" content - wat bezoekers zien voordat ze scrollen - is cruciaal voor het succes van je website. Het bepaalt of mensen blijven of wegklikken. Laten we eens kijken hoe je deze eerste indruk kunt optimaliseren.
