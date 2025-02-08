@@ -19,26 +19,17 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const PLACEHOLDER_IMAGES = [
-  '/blog-placeholder-1.jpg',
-  '/blog-placeholder-2.jpg',
-  '/blog-placeholder-3.jpg',
-  '/blog-placeholder-4.jpg',
-  '/blog-placeholder-5.jpg',
-  '/blog-placeholder-about.jpg',
-];
-
 async function downloadImage(url, filepath) {
   const response = await fetch(url);
-  const buffer = await response.buffer();
-  await fs.writeFile(filepath, buffer);
+  const arrayBuffer = await response.arrayBuffer();
+  await fs.writeFile(filepath, Buffer.from(arrayBuffer));
 }
 
 async function generateImageForPost(title) {
   try {
     const response = await openai.images.generate({
       model: "dall-e-3",
-      prompt: `Create a professional, modern blog header image for an article titled "${title}". The image should be clean, minimalist, and suitable for a tech/web development blog. Use a style that combines abstract elements with relevant visual metaphors. Make it visually appealing but not too busy.`,
+      prompt: `Create a professional, blog header image for an article titled "${title}".The image should show a realistic setting or image of an object that embodies this concept. Use soft colors and minimal text.`,
       n: 1,
       size: "1792x1024",
       quality: "standard",
@@ -55,8 +46,8 @@ async function processPost(filePath) {
   const content = await fs.readFile(filePath, 'utf-8');
   const { data, content: postContent } = matter(content);
   
-  // Skip if the post already has a non-placeholder image
-  if (data.heroImage && !PLACEHOLDER_IMAGES.includes(data.heroImage)) {
+  // Skip if the post has an image and it's not a placeholder
+  if (data.heroImage && !data.heroImage.toLowerCase().includes('placeholder')) {
     console.log(`Skipping ${filePath} - already has a custom image`);
     return;
   }
