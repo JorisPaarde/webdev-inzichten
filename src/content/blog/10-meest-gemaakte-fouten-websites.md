@@ -113,4 +113,4 @@ Deze fouten zijn relatief eenvoudig te voorkomen met de juiste aanpak en aandach
 
 Wil je meer weten over het optimaliseren van je website? Lees dan ook onze artikelen over [above the fold optimalisatie](/blog/above-the-fold-optimalisatie) en [effectieve call-to-actions](/blog/effectieve-call-to-actions).
 
-Heb je hulp nodig bij het optimaliseren van je website of wil je een nieuwe website die deze fouten vanaf het begin voorkomt? Neem dan contact op met [JPWebCreation](https://jpwebcreation.nl[external]) voor professioneel advies en ondersteuning. 
+Heb je hulp nodig bij het optimaliseren van je website of wil je een nieuwe website die deze fouten vanaf het begin voorkomt? Wil je een [professionele website laten maken](https://jpwebcreation.nl[external]) die voldoet aan alle moderne standaarden? Neem contact met ons op voor een vrijblijvend gesprek. 

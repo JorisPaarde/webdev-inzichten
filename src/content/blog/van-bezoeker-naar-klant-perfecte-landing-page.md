@@ -112,4 +112,4 @@ Een effectieve landing page is een combinatie van psychologie, design en technie
 
 Wil je meer weten over website optimalisatie? Bekijk dan ook onze artikelen over [above the fold optimalisatie](/blog/above-the-fold-optimalisatie) en [effectieve call-to-actions](/blog/effectieve-call-to-actions).
 
-Hulp nodig bij het optimaliseren van je landing pages? [JPWebCreation](https://jpwebcreation.nl[external]) helpt je graag met het creëren van converterende landing pages die resultaat opleveren. 
+Hulp nodig bij het optimaliseren van je landing pages? Wil je een [professionele website laten maken](https://jpwebcreation.nl[external]) die direct converteert? Neem contact met ons op voor een vrijblijvend gesprek. 

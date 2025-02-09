@@ -59,10 +59,12 @@ Een goed geoptimaliseerde above the fold sectie kan leiden tot:
 
 ## Praktijkvoorbeeld
 
-Bij [JP Web Creation](https://www.jpwebcreation.nl) passen we deze principes dagelijks toe in onze projecten. Een recent voorbeeld is de homepage van een e-commerce klant waar we de bounce rate met 30% wisten te verlagen door het optimaliseren van de above the fold content. Door de juiste combinatie van snelheid, duidelijke waardepropositie en strategische CTA-plaatsing zagen we direct resultaat.
+Wil je een [professionele website laten maken](https://jpwebcreation.nl[external]) die deze principes perfect toepast? Wij passen deze optimalisaties dagelijks toe in onze projecten. Een recent voorbeeld is de homepage van een e-commerce klant waar we de bounce rate met 30% wisten te verlagen door het optimaliseren van de above the fold content. Door de juiste combinatie van snelheid, duidelijke waardepropositie en strategische CTA-plaatsing zagen we direct resultaat.
 
 ## Conclusie
 
 Above the fold optimalisatie is een continu proces. Test verschillende varianten, meet de resultaten en optimaliseer op basis van data. Focus op snelheid, duidelijkheid en een sterke call-to-action voor de beste resultaten.
 
 Wil je meer weten over website optimalisatie? Bekijk dan ook onze artikelen over laadtijd optimalisatie en conversie optimalisatie.
+
+Klaar om je website naar een hoger niveau te tillen? Wil je een [professionele website laten maken](https://jpwebcreation.nl[external]) die vanaf de eerste pixel overtuigt? Neem contact met ons op voor een vrijblijvend gesprek.
