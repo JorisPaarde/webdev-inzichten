@@ -11,7 +11,9 @@ const BASE_PATH = isDevelopment ? '' : `/${REPO_NAME}`;
 
 // https://astro.build/config
 export default defineConfig({
-	site: `https://jorispaarde.github.io/${REPO_NAME}/`,
+	// use when copying project to github pages
+	//site: `https://jorispaarde.github.io/${REPO_NAME}/`,
+	site: `https://webdevblog.nl/`,
 	base: BASE_PATH,
 	integrations: [mdx(), sitemap()],
 	markdown: {
